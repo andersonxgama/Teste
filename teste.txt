@@ -1,0 +1,27 @@
+protected void CliqueTeste(object sender, EventArgs e)
+{
+	List<Cliente> lstCliente = new List<Cliente>();
+
+	lstCliente.Add(new Cliente("1Cliente1", "111"));
+	lstCliente.Add(new Cliente("2Cliente2", "222"));
+	lstCliente.Add(new Cliente("3Cliente3", "333"));
+
+	Response.ContentEncoding = System.Text.Encoding.UTF8;
+
+	string fileName = string.Format("{0}{1}", Path.GetTempPath(), "teste.txt");
+
+	using(StreamWriter writer = new StreamWriter(fileName, false, Response.ContentEncoding))
+	{
+		foreach(var item in lstCliente)
+		{
+			writer.WriteLine(item.Nome + " - " + item.Cpf);
+		}
+	}
+
+	Response.Clear();
+	Response.AddHeader("content-disposition", "attachment; filename=teste.txt");
+	Response.ContentType = "text/plain";
+	Response.Charset = "utf-8";
+	Response.WriteFile(fileName);
+	Response.End();
+}
