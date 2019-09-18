@@ -1,0 +1,10 @@
+C:\Users\Eu\Desktop\ProjetoProjeto\ProjetoProjeto\bin\Debug\ProjetoProjeto.exe.config
+C:\Users\Eu\Desktop\ProjetoProjeto\ProjetoProjeto\bin\Debug\ProjetoProjeto.exe
+C:\Users\Eu\Desktop\ProjetoProjeto\ProjetoProjeto\bin\Debug\ProjetoProjeto.pdb
+C:\Users\Eu\Desktop\ProjetoProjeto\ProjetoProjeto\obj\Debug\ProjetoProjeto.csprojAssemblyReference.cache
+C:\Users\Eu\Desktop\ProjetoProjeto\ProjetoProjeto\obj\Debug\ProjetoProjeto.Form1.resources
+C:\Users\Eu\Desktop\ProjetoProjeto\ProjetoProjeto\obj\Debug\ProjetoProjeto.Properties.Resources.resources
+C:\Users\Eu\Desktop\ProjetoProjeto\ProjetoProjeto\obj\Debug\ProjetoProjeto.csproj.GenerateResource.cache
+C:\Users\Eu\Desktop\ProjetoProjeto\ProjetoProjeto\obj\Debug\ProjetoProjeto.csproj.CoreCompileInputs.cache
+C:\Users\Eu\Desktop\ProjetoProjeto\ProjetoProjeto\obj\Debug\ProjetoProjeto.exe
+C:\Users\Eu\Desktop\ProjetoProjeto\ProjetoProjeto\obj\Debug\ProjetoProjeto.pdb
